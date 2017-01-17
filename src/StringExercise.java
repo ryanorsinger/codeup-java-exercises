@@ -1,6 +1,7 @@
 /**
  * Created by Moravia on 1/4/17.
  */
+
 public class StringExercise {
     public static void main(String[] args) {
 

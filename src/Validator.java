@@ -23,7 +23,6 @@ public class Validator {
             System.out.println("Input must be an integer");
             return getInt(prompt);
         }
-
         return userInt;
     }
 
@@ -40,5 +39,10 @@ public class Validator {
         }
 
         return userInt;
+    }
+
+    public String getString(String prompt) {
+        System.out.println(prompt);
+        return scan.next();
     }
 }

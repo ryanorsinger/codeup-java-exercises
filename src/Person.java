@@ -2,11 +2,12 @@
  * Created by Moravia on 1/6/17.
  */
 public class Person {
-    private String firstName;
-    private String lastName;
-    private String email;
+    protected String firstName;
+    protected String lastName;
+    protected String email;
 
-    private static int numberOfPeople;
+
+    static int numberOfPeople;
 
     public Person(String firstName, String lastName, String email) {
         numberOfPeople++;

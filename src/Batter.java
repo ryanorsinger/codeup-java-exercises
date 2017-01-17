@@ -11,7 +11,7 @@ class Batter {
 
     // Batting average is total number of at-bats for which the player earned at least one base divided by the total number of at-bats.
     public double getBattingAverage() {
-        battingAverage = numberOfAtBatsWithAtLeastOneBase / arrayOfAtBats.length;
+        battingAverage = (double) numberOfAtBatsWithAtLeastOneBase / arrayOfAtBats.length;
         return battingAverage;
     }
 

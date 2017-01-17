@@ -20,7 +20,7 @@ public class BattingAverage {
 
             batter.arrayOfAtBats[i] = validator.getIntWithinRange("How many bases for this time at bat? ", 0, 4);
 
-            // count number of times atBats with at least one base.
+            // count number of times atBat with at least one base.
             if(batter.arrayOfAtBats[i] > 0) {
                 batter.numberOfAtBatsWithAtLeastOneBase++;
             }
@@ -28,7 +28,6 @@ public class BattingAverage {
             // add all atBat results to a totalBases count
             batter.totalBases += batter.arrayOfAtBats[i];
         }
-
 
         System.out.println("The batter's batting average is " + batter.getBattingAverage());
 

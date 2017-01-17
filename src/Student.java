@@ -4,35 +4,34 @@
 public class Student {
     private String firstName;
     private String lastName;
+    private int score;
     private int age;
 
-    public Student(String firstName, String lastName, int age) {
+    public Student(String firstName, String lastName, int score) {
         this.firstName = firstName;
         this.lastName = lastName;
-        this.age = age;
+        this.score = score;
     }
 
     public String getFirstName() {
         return firstName;
     }
 
-    public void setFirstName(String firstName) {
-        this.firstName = firstName;
-    }
-
     public String getLastName() {
         return lastName;
     }
 
-    public void setLastName(String lastName) {
-        this.lastName = lastName;
+    public int getScore() {
+        return score;
     }
 
     public int getAge() {
         return age;
     }
 
-    public void setAge(int age) {
-        this.age = age;
+
+
+    public String getFullName() {
+        return firstName + " " + lastName;
     }
 }
